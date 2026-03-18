@@ -29,7 +29,7 @@ Before you begin, ensure you have the following installed on your system:
 
 ---
 
-## 📦 Installation & Setup
+##  Installation & Setup
 
 ### 1. Backend Setup
 
@@ -90,7 +90,7 @@ The frontend will typically run on `http://localhost:5173` (Vite default port).
 
 ---
 
-## 🏃 Running the Project
+##  Running the Project
 
 To run the complete application:
 
@@ -134,7 +134,7 @@ Most modern IDEs (VS Code, WebStorm, etc.) allow split terminals:
 
 ---
 
-## 📱 Features
+##  Features
 
 - Real-time video conferencing using WebRTC
 - Socket.io for real-time communication
@@ -144,7 +144,7 @@ Most modern IDEs (VS Code, WebStorm, etc.) allow split terminals:
 
 ---
 
-## 🔧 Tech Stack
+##  Tech Stack
 
 ### Frontend
 - React 19
@@ -163,7 +163,7 @@ Most modern IDEs (VS Code, WebStorm, etc.) allow split terminals:
 
 ---
 
-## 📂 Key Files & Directories
+##  Key Files & Directories
 
 ### Backend
 - `src/app.js` - Main Express application
@@ -181,7 +181,7 @@ Most modern IDEs (VS Code, WebStorm, etc.) allow split terminals:
 
 ---
 
-## 🌐 Accessing the Application
+##  Accessing the Application
 
 1. Ensure both backend and frontend servers are running
 2. Open your browser and navigate to `http://localhost:5173`
@@ -219,21 +219,4 @@ PORT=5000
 NODE_ENV=development
 MONGODB_URL=mongodb://localhost:27017/video-conference
 ```
-
-### Frontend (if needed, create .env)
-```
-VITE_API_URL=http://localhost:5000
-```
-
----
-
-## 🤝 Contributing
-
-1. Create a feature branch
-2. Make your changes
-3. Test thoroughly
-4. Submit a pull request
-
----
-
 
