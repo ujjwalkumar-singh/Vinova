@@ -7,7 +7,7 @@ import { AuthProvider } from './context/Authcontext.jsx'
 import LandingPage from "./pages/Landing.jsx"
 import Authentication from './pages/Authentication.jsx'
 import HomeComponent from './pages/Home.jsx';
-import Videomeet from './pages/videomeet.jsx';
+import Videomeet from './pages/Videomeet.jsx';
 import History from './pages/History.jsx'
 
 function App() {
