@@ -4,7 +4,7 @@ A full-stack video conferencing application built with React (Vite) frontend and
 
 ---
 
-## 📋 Project Structure
+##  Project Structure
 
 ```
 Video Conference/
@@ -17,7 +17,7 @@ Video Conference/
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 
