@@ -3,6 +3,7 @@ import "../App.css"
 import { Link, useNavigate } from 'react-router-dom'
 export default function Landing() {
     const router = useNavigate();
+    const isLoggedIn = localStorage.getItem("token");
     return (
         <div className='landingPageContainer'>
             <nav>
@@ -20,15 +21,17 @@ export default function Landing() {
                     <div onClick={() => {
                         router("/auth")
 
-                    }}role='button'><p>Login</p></div>
+                    }} role='button'><p>Login</p></div>
                 </div>
             </nav>
             <div className="landingPageMainConatiner">
                 <div>
-                    <h1><span style={{color:"orange"}} >Connect</span> With your loved ones </h1>
+                    <h1><span style={{ color: "orange" }} >Connect</span> With your loved ones </h1>
                     <p>Cover a distance by video call</p>
                     <div role='button'>
-                        <Link to={"/auth"}>Get Started</Link>
+                        <Link to={isLoggedIn ? "/home" : "/auth"}>
+                            Get Started
+                        </Link>
                     </div>
                 </div>
                 <div>
