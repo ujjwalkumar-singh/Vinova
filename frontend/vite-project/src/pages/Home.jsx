@@ -22,7 +22,7 @@ function HomeComponent() {
         try {
 
             const response = await axios.post(
-                `${server.dev}/api/v1/users/validateMeeting`,
+                `${server.prod}/api/v1/users/validateMeeting`,
                 {
                     meetingCode
                 }
@@ -79,7 +79,7 @@ function HomeComponent() {
         try {
 
             await axios.post(
-                `${server.dev}/api/v1/users/createMeeting`,
+                `${server.prod}/api/v1/users/createMeeting`,
                 {
                     token,
                     meetingCode
